@@ -25,6 +25,8 @@ define( 'DB_NAME', 'alphasius' );
 /** Database username */
 define( 'DB_USER', 'mvp' );
 
+define('FS_METHOD','direct');
+
 /** Database password */
 define( 'DB_PASSWORD', 'abc@123' );
 
