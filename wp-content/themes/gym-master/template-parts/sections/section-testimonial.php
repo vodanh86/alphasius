@@ -22,7 +22,7 @@ if (get_theme_mod('gym_master_testiminial_option','no')=='yes') {  ?>
     	<?php } ?>
 		
 		<header class="entry-header">
-			<h2 class="entry-title" style="margin-bottom:60px">Phản hồi hội viên</h2>
+			<h2 class="entry-title" style="margin-bottom:80px;text-transform:uppercase;font-style:italic">Phản hồi hội viên</h2>
 		</header>
 		
 	    <div class="testimonial-wrap  animated wow fadeInDown" data-wow-delay="0.5s">
