@@ -49,7 +49,7 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 				
 				                   <h3 class="entry-title">
 
-				                     	<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+				                     	<a href="<?php the_permalink(); ?>" style="color:black"><?php the_title(); ?></a>
 
 				                   </h3>
 

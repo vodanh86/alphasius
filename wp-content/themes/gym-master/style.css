@@ -2349,6 +2349,7 @@ process-section and client-info-section
     float:left;
     margin-bottom:30px;
     padding-right:10px;
+    background-color: white;
 }
 .process-content:nth-of-type(2n),
 .client-info-content:nth-of-type(2n){
