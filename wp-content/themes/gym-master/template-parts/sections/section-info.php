@@ -21,38 +21,6 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 
 	    <div class="container">
 	        <div class="client-info-left">
-	            <div class="section-intro  animated wow fadeInDown" data-wow-delay="0.5s">
-
-	            	<?php $info_page  = get_theme_mod('gym_master_info_page',0); ?>
-
-	            	<!-- ************************** Title  And Subtitle*****************-->
-	            	<?php   if( !empty( $info_page ) ): 
-
-	            		$args = array (                                 
-	            		'page_id'           => absint( $info_page ),
-	            		'post_status'       => 'publish',
-	            		'post_type'         => 'page',
-	            		);
-
-	            	$loop_info = new WP_Query($args);
-
-	            	if ( $loop_info->have_posts() ) : ?>
-
-		                <header class="entry-header">
-
-		                	<?php while ($loop_info->have_posts()) : $loop_info->the_post();?>
-			                    <h2 class="entry-title"><?php the_title(); ?></h2>
-			                    <h4 class="entry-subtitle"><span><?php echo esc_html(wp_trim_words(get_the_content(),13,'...')); ?></span></h4>
-
-                    		 <?php endwhile; 
-                     		   wp_reset_postdata();?>
-
-		                </header>
-
-		            <?php endif;
-		            endif;
-		            ?>     
-	            </div>
 
 	            <!-- ************************** Starting Inner Here *****************-->
 	           <div class="client-info-wrap">
@@ -81,14 +49,12 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 				
 				                   <h3 class="entry-title">
 
-				                       <span class="count"> <?php echo absint($first_counter_number); ?> </span>
-
 				                     	<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 
 				                   </h3>
 
 				                   <div class="entry-content">
-				                   		<?php echo esc_html(wp_trim_words(get_the_content(),13,'...')); ?>
+				                   		<?php echo esc_html(wp_trim_words(get_the_content(),130,'...')); ?>
 				                   	</div>
 
 			                   <?php endwhile; 
