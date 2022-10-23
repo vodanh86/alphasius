@@ -25,7 +25,7 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 	            <!-- ************************** Starting Inner Here *****************-->
 	           <div class="client-info-wrap">
 
-	               <div class="client-info-content  animated wow fadeInUp" data-wow-delay="0.5s">
+	               <div class="client-info-content  animated wow fadeInUp" data-wow-delay="0.5s" style="background-color:white>
 
 		               	<?php 
 							$counter_page  = get_theme_mod('gym_master_counter_page_one',0);
@@ -53,7 +53,7 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 
 				                   </h3>
 
-				                   <div class="entry-content">
+				                   <div class="entry-content" style="color:black">
 				                   		<?php echo esc_html(wp_trim_words(get_the_content(),130,'...')); ?>
 				                   	</div>
 
