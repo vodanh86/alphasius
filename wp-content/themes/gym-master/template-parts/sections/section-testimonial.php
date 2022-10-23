@@ -20,11 +20,12 @@ if (get_theme_mod('gym_master_testiminial_option','no')=='yes') {  ?>
     	<?php if( !empty( $image) ) { ?>
        		 <div class="section-bg-img" style="background-image: url( <?php echo esc_url($image); ?> )"></div>	
     	<?php } ?>
-
+		
+		<header class="entry-header">
+			<h2 class="entry-title">Phản hồi hội viên</h2>
+		</header>
+		
 	    <div class="testimonial-wrap  animated wow fadeInDown" data-wow-delay="0.5s">
-			<header class="entry-header">
-				<h2 class="entry-title">Phản hồi hội viên</h2>
-			</header>
 	    	<!-- ************************** Starting Caegory Here *****************-->
 			<?php
 			$testimonial_section_cat = get_theme_mod('gym_master_testimonial_section_cat',0);
