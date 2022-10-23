@@ -40,7 +40,7 @@
 			                <div class="container">
 			                    <div class="feature-contain">
 			                        <h2 class="entry-title">
-			                            <?php the_title();?>
+			                            <?php //the_title();?>
 			                        </h2>
 										<?php if(!empty($slider_readmore)){
 										?>
