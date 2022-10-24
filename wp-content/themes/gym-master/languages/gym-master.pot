@@ -1097,14 +1097,14 @@ msgstr ""
 #: inc/template-tags.php:29
 #, php-format
 msgctxt "post date"
-msgid "Posted on %s"
+msgid "Đăng vào %s"
 msgstr ""
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 #, php-format
 msgctxt "post author"
-msgid "by %s"
+msgid "bởi %s"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
@@ -1115,7 +1115,7 @@ msgstr ""
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 #, php-format
-msgid "Posted in %1$s"
+msgid "Đăng ở mục %1$s"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
@@ -1147,11 +1147,11 @@ msgstr ""
 #. translators: %s: search query.
 #: search.php:24
 #, php-format
-msgid "Search Results for: %s"
+msgid "Kết quả tìm kiếm: %s"
 msgstr ""
 
 #: template-parts/content-none.php:14
-msgid "Nothing Found"
+msgid "Không tháy kết quả nào"
 msgstr ""
 
 #. translators: 1: link to WP admin new post page.
@@ -1163,7 +1163,7 @@ msgstr ""
 
 #: template-parts/content-none.php:37
 msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
+"Không thấy kết quả nào. Vui lòng tìm kiếm lại."
 "different keywords."
 msgstr ""
 
