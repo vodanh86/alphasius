@@ -219,6 +219,9 @@
     box-shadow: none !important;
     
 }
+.gm-style {
+    color: black;
+}
 .gm-style div { margin-top:0 !important; }
 
 #wpgmaps_directions_edit {
