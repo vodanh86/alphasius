@@ -4729,3 +4729,9 @@ button:focus,
 .wonderplugin-box-top {
     padding: 0px!important;
 }
+.wonderplugin-box-description {
+    display: none!important;
+}
+.wonderplugin-box-heading {
+    display: none!important;
+}
