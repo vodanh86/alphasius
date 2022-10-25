@@ -4366,6 +4366,7 @@ button:focus,
         position: absolute;
         left: 0;
         margin-top: 50px;
+        z-index: 100;
     }
     .hgroup-wrap .container {
         position: relative;
