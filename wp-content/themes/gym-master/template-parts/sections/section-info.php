@@ -25,7 +25,7 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 	            <!-- ************************** Starting Inner Here *****************-->
 	           <div class="client-info-wrap">
 
-	               <div class="client-info-content  animated wow fadeInUp" data-wow-delay="0.5s" style="background-color:white">
+	               <div class="client-info-content  animated wow fadeInUp" data-wow-delay="0.5s">
 
 		               	<?php 
 							$counter_page  = get_theme_mod('gym_master_counter_page_one',0);
