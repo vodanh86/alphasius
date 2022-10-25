@@ -2016,7 +2016,7 @@ featured-slider css start
 ------------------------------*/
 .featured-slider .featured-item{
     position: relative;
-    height: 100vh;
+    height: 130vh;
     background-repeat:no-repeat;
     background-size:cover;
     background-position: top center;
