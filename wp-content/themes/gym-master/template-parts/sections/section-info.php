@@ -59,9 +59,9 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 				                   <div class="entry-content" style="color:black;font-size: 20px;
     text-align: justify;">
 				                   		<?php echo get_the_content(); ?>
-										   <ul class="navbar-nav ml-auto main-nav">
-												<li class="nav-item"><div class="nav-link"><a href="https://apps.apple.com/app/id1511450771" target="_blank"><img src="/public/images/app-store.svg" alt="logo" width="120px" height="40px"></a></div></li>
-												<li class="nav-item"><div class="nav-link"><a href="https://play.google.com/store/apps/details?id=com.radioactive.vintage" target="_blank"><img src="/public/images/google-play-badge.png" alt="logo" width="120px" height="40px"></a></div></li>
+										   <ul class="navbar-nav ml-auto main-nav" style="display:flex; flex-direction:row">
+												<li class="nav-item"><div class="nav-link"><a href="https://apps.apple.com/app/id1511450771" target="_blank"><img src="https://www.vintageradio.sg/public/images/app-store.svg" alt="logo" width="120px" height="40px"></a></div></li>
+												<li class="nav-item"><div class="nav-link"><a href="https://play.google.com/store/apps/details?id=com.mvp_mobile" target="_blank"><img src="https://www.vintageradio.sg/public/images/google-play-badge.png" alt="logo" width="120px" height="40px"></a></div></li>
 												
 											</ul>
 				                   	</div>
