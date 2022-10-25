@@ -2345,12 +2345,11 @@ process-section and client-info-section
 }
 .process-content,
 .client-info-content{
-    width:70%;
     float:left;
     margin-bottom:30px;
     padding-right:10px;
     background-color: white;
-    padding: 65px;
+    padding: 55px;
 }
 .process-content:nth-of-type(2n),
 .client-info-content:nth-of-type(2n){

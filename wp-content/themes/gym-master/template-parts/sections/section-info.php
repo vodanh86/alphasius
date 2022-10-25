@@ -25,7 +25,7 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 	            <!-- ************************** Starting Inner Here *****************-->
 	           <div class="client-info-wrap">
 
-	               <div class="client-info-content  animated wow fadeInUp" data-wow-delay="0.5s">
+	               <div class="client-info-content  animated wow fadeInUp" data-wow-delay="0.5s" style="background-color:white; color:black">
 
 		               	<?php 
 							$counter_page  = get_theme_mod('gym_master_counter_page_one',0);
@@ -47,7 +47,10 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 
 								<?php while ($loop->have_posts()) : $loop->the_post();?>
 				
-				                   <h3 class="entry-title">
+				                   <h3 class="entry-title" styles="    font-size: 56px;
+    line-height: 56px;
+    color: black!important;
+	font-weight: 900">
 
 				                     	<?php the_title(); ?>
 
