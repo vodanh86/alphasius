@@ -4735,3 +4735,9 @@ button:focus,
 .wonderplugin-box-heading {
     display: none!important;
 }
+.wonderplugin-box-select-label {
+    display: none!important;
+}
+.wonderplugin-box-action {
+    width: initial!important;
+}
