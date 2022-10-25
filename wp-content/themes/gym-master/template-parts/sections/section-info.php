@@ -47,7 +47,7 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 
 								<?php while ($loop->have_posts()) : $loop->the_post();?>
 				
-				                   <h3 class="entry-title" styles="    font-size: 56px;
+				                   <h3 class="entry-title" style="    font-size: 56px;
     line-height: 56px;
     color: black!important;
 	font-weight: 900">
@@ -57,7 +57,7 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 				                   </h3>
 
 				                   <div class="entry-content" style="color:black">
-				                   		<?php echo esc_html(wp_trim_words(get_the_content(),130,'...')); ?>
+				                   		<?php echo get_the_content(); ?>
 				                   	</div>
 
 			                   <?php endwhile; 
