@@ -56,7 +56,8 @@ if (get_theme_mod('gym_master_info_option','no')=='yes') {  ?>
 
 				                   </h3>
 
-				                   <div class="entry-content" style="color:black">
+				                   <div class="entry-content" style="color:black;font-size: 20px;
+    text-align: justify;">
 				                   		<?php echo get_the_content(); ?>
 				                   	</div>
 

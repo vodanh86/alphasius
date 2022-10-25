@@ -2292,6 +2292,7 @@ process-section and client-info-section
 .process-section .section-bg-img,
 .client-info-section .section-bg-img{
     width: 100%;
+    width: 80%;
     opacity: 0.8;
     background-position: top center;
 }
@@ -2345,11 +2346,12 @@ process-section and client-info-section
 }
 .process-content,
 .client-info-content{
+    width:70%;
     float:left;
     margin-bottom:30px;
     padding-right:10px;
     background-color: white;
-    padding: 55px;
+    padding: 65px;
 }
 .process-content:nth-of-type(2n),
 .client-info-content:nth-of-type(2n){
