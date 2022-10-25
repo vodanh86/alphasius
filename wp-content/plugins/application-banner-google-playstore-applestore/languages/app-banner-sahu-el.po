@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Application Banner (Google PlayStore / AppleStore)\n"
+"POT-Creation-Date: 2021-08-16 12:53+0200\n"
+"PO-Revision-Date: 2021-08-16 12:53+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: main.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: assets/admin.php:14 assets/admin.php:15
+msgid "Application Banner"
+msgstr "Πανό εφαρμογής"
+
+#: assets/admin.php:27
+msgid "Application Banner - SAHU MEDIA ®"
+msgstr "Πανό εφαρμογής - ® SAHU MEDIA"
+
+#: assets/admin.php:44
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: assets/admin.php:51
+msgid "APP-Store Links"
+msgstr "Σύνδεσμοι app-store"
+
+#: assets/admin.php:79
+msgid "APP-Information"
+msgstr "Πληροφορίες ΕΦΑΡΜΟΓΉς"
+
+#: assets/admin.php:107
+msgid "Background-Color"
+msgstr "Χρώμα φόντου"
+
+#: assets/admin.php:117
+msgid "Font-Color"
+msgstr "Χρώμα γραμματοσειράς"
+
+#: assets/admin.php:129
+msgid ""
+"Change the link to the PlayStore or AppleStore! With the Pro version, you "
+"can also change colors or the ICON."
+msgstr ""
+"Αλλάξτε τον σύνδεσμο στο PlayStore ή στο AppleStore! Με την έκδοση Pro, "
+"μπορείτε επίσης να αλλάξετε χρώματα ή το ICON."
+
+#: assets/admin.php:136
+msgid "Appel Store Link"
+msgstr "Σύνδεσμος καταστήματος ενδυμαλών"
+
+#: assets/admin.php:137
+msgid "Google Store Link"
+msgstr "Σύνδεσμος καταστήματος Google"
+
+#: assets/admin.php:138
+msgid "APP-Package Name com.sahu.appname"
+msgstr "Όνομα πακέτου APP com.sahu.app όνομα"
+
+#: assets/admin.php:144
+msgid "APP-Name"
+msgstr "Όνομα ΕΦΑΡΜΟΓΉς"
+
+#: assets/admin.php:145
+msgid "APP slogan or APP developer"
+msgstr "Σλόγκαν APP ή προγραμματιστής APP"
+
+#: assets/admin.php:146
+msgid "APPICON URL"
+msgstr "APPICON URL"
+
+#: include/loadhtml.php:37
+msgid "Now in the Google Play Store"
+msgstr "Τώρα στο Κατάστημα Google Play"
+
+#: include/loadhtml.php:42
+msgid "Now in the Apple Store"
+msgstr "Τώρα στο Κατάστημα apple"
+
+#: include/loadhtml.php:119
+msgid "Download"
+msgstr "Λήψη"
+
+#. Plugin Name of the plugin/theme
+msgid "Application Banner (Google PlayStore / AppleStore)"
+msgstr "Banner εφαρμογής (Google PlayStore / AppleStore)"
+
+#. Description of the plugin/theme
+msgid "Promote your app with an Application Banner on your Website."
+msgstr ""
+"Προωθήστε την εφαρμογή σας με ένα Banner εφαρμογής στον ιστότοπό σας."
+
+#. Author of the plugin/theme
+msgid "SAHU MEDIA ®"
+msgstr "® ΜΈΣΩΝ SAHU"
+
+#. Author URI of the plugin/theme
+msgid "https://sahu.media"
+msgstr "https://sahu.media"
