@@ -4726,3 +4726,6 @@ button:focus,
 .nav-links {
 	display: none;
 }
+.wonderplugin-box-top {
+    padding: 0px!important;
+}
