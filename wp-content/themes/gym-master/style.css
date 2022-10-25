@@ -1664,7 +1664,6 @@ header css start
     margin-bottom:30px;
 }
 .hgroup-wrap{
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -2310,7 +2309,7 @@ process-section and client-info-section
 }
 .process-section .process-section-right,
 .client-info-section .client-info-left{
-    width:50%;
+    width:70%;
     text-align:left;
     position: relative;
     padding:96px 25px 66px;
@@ -2369,7 +2368,6 @@ process-section and client-info-section
     font-weight: 500;
     text-transform: uppercase;
     position: relative;
-    padding-left: 34px;
     line-height: 1;
     padding-top:26px;
     margin-bottom:10px;
