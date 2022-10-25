@@ -4353,7 +4353,7 @@ button:focus,
         padding:0;
     }
     .featured-slider .featured-item {
-        height:auto;
+        height:30vh;
     }
 }
 /* All Tablet Portrait size smaller than standard 1023 (devices and browsers) */
