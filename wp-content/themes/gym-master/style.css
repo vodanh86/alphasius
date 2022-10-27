@@ -2290,7 +2290,7 @@ process-section and client-info-section
 .client-info-section .section-bg-img{
     width: 100%;
     width: 80%;
-    opacity: 0.8;
+    opacity: 1;
     background-position: top center;
 }
 .process-section .section-bg-img{
