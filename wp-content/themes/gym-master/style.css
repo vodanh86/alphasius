@@ -2289,9 +2289,9 @@ process-section and client-info-section
 .process-section .section-bg-img,
 .client-info-section .section-bg-img{
     width: 100%;
-    width: 80%;
     opacity: 1;
     background-position: top center;
+    background-size: contain;
 }
 .process-section .section-bg-img{
     left:0;
